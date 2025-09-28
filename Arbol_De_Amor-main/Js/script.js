@@ -145,7 +145,7 @@ function showCountdown() {
   const container = document.getElementById('countdown');
   let startParam = getURLParam('start');
   let eventParam = getURLParam('event');
-  let startDate = startParam ? new Date(startParam + 'T00:00:00') : new Date('2025-08-02T00:00:00');
+  let startDate = startParam ? new Date(startParam + 'T00:00:00') : new Date('2025-08-01T00:00:00');
   let eventDate = eventParam ? new Date(eventParam + 'T00:00:00') : new Date('2026-08-02T00:00:00');
 
   function update() {
